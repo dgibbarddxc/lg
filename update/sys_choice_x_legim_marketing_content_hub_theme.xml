@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="theme" table="x_legim_marketing_content_hub" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>theme</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Long term thinking</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>10</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-13 14:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>45dc83d94f310b00dd9e81c18110c73a</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zszabo</sys_updated_by>
+            <sys_updated_on>2018-01-15 16:58:40</sys_updated_on>
+            <value>Long term thinking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>theme</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Market insights</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>20</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-13 14:14:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>428dcb994f310b00dd9e81c18110c702</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zszabo</sys_updated_by>
+            <sys_updated_on>2018-01-15 16:57:55</sys_updated_on>
+            <value>Market insights</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>theme</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Client solutions</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>30</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-13 14:54:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6bb6db9d4f310b00dd9e81c18110c7c3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zszabo</sys_updated_by>
+            <sys_updated_on>2018-01-15 16:58:33</sys_updated_on>
+            <value>Client solutions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>theme</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investment foresight</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>40</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-13 14:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>47b5db1d4f310b00dd9e81c18110c7e6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zszabo</sys_updated_by>
+            <sys_updated_on>2018-01-15 16:58:29</sys_updated_on>
+            <value>Investment foresight</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>theme</element>
+            <name>x_legim_marketing_content_hub</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-13 14:11:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>09dc83d94f310b00dd9e81c18110c73a</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_name>theme</sys_name>
+            <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+            <sys_update_name>sys_choice_x_legim_marketing_content_hub_theme</sys_update_name>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-10-25 10:22:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

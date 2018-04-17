@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="scheduled_data_export">
+    <scheduled_data_export action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <delta_on_or_after>sys_updated_on</delta_on_or_after>
+        <enable_delta_export>false</enable_delta_export>
+        <export_set display_value="Content Hub">c198e995db8b870009b7f93baf96195a</export_set>
+        <last_export_run>2018-04-10 10:34:43</last_export_run>
+        <name>Content Hub</name>
+        <order/>
+        <parent/>
+        <post_script><![CDATA[(function(){
+
+	try{
+		gs.info('POST SCRIPT 1');
+		//var jprobe = new global.JavascriptProbe('POCMID');
+		//jprobe.setName('SFTP File Transfer'); //any name can be given
+		//jprobe.setJavascript('var x=new x_legim_marketing.DGSFTP();');
+		//jprobe.addParameter('host', '*target_host_name');
+		//jprobe.addParameter('port', '*port_name');
+		//jprobe.addParameter('user', '*user_id');
+		//jprobe.addParameter('privatekey', '*private_key_path');
+		//jprobe.addParameter('source', '*source_file_path');
+		//jprobe.addParameter('target', '');
+		//jprobe.addParameter('filename', '*file_name');
+		//jprobe.addParameter('deletefile', true);
+		//jprobe.create();
+		gs.info('POST SCRIPT 2');
+
+	}catch(e){
+		gs.error('DG ERROR ' + e);
+	} 
+
+})();]]></post_script>
+        <post_script_bool>true</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <run_as display_value="Neil Marshall">a4769f076f9b6100e578c0354b3ee40e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-12-14 10:24:04</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>scheduled_data_export</sys_class_name>
+        <sys_created_by>AM99925</sys_created_by>
+        <sys_created_on>2017-12-14 10:26:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc7be519db8b870009b7f93baf96199e</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Content Hub</sys_name>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>scheduled_data_export_fc7be519db8b870009b7f93baf96199e</sys_update_name>
+        <sys_updated_by>NM68653</sys_updated_by>
+        <sys_updated_on>2018-04-10 10:34:43</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </scheduled_data_export>
+</record_update>

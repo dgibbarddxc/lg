@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Content Hub" max_length="40" name="x_legim_marketing_content_hub" type="collection">
+        <element default="true" label="Advisers 3rd Party" mandatory="true" max_length="40" name="advisers_3rd_party" type="boolean"/>
+        <element default="true" label="Advisers Wealth" mandatory="true" max_length="40" name="advisers_wealth" type="boolean"/>
+        <element default="javascript:current.archive_date.setDisplayValue('2100-01-01');" label="Archive Date" mandatory="true" max_length="40" name="archive_date" type="glide_date"/>
+        <element default="true" label="Asia" mandatory="true" max_length="40" name="asia" type="boolean"/>
+        <element choice="2" label="Authors" mandatory="true" max_length="100" name="authors" reference="sys_user" type="glide_list">
+            <choice/>
+        </element>
+        <element default="true" label="Belgium" mandatory="true" max_length="40" name="belgium" type="boolean"/>
+        <element hint="Tick  and enter details in CIO Pick Copy field" label="CIO Pick" mandatory="true" max_length="40" name="cio_pick" type="boolean"/>
+        <element hint="Available when CIO Pick is selected" label="CIO Pick Copy" max_length="100" name="cio_pick_copy" type="string"/>
+        <element choice_field="sub_them" label="ComplianceRef" mandatory="true" max_length="40" name="complianceref" type="string"/>
+        <element default="true" label="Denmark" mandatory="true" max_length="40" name="denmark" type="boolean"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Document Date" mandatory="true" max_length="40" name="document_date" type="glide_date" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;//var gd = new GlideDate();&#13;&#10;    //gd.setDisplayValue(&quot;2011-01-01&quot;);&#13;&#10;    //gs.info(gd.getValue());&#13;&#10;&#9;'Hello World!';&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:var gd = new GlideDate();&#13;&#10;//gd.setValue('2017-12-01');  //Uncomment line and change date here to test case options.&#13;&#10;switch(gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(3,2)) {&#13;&#10;    case '01':&#13;&#10;        'January' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '02':&#13;&#10;        'February' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '03':&#13;&#10;        'March' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '04':&#13;&#10;        'April' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '05':&#13;&#10;        'May' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '06':&#13;&#10;        'June' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '07':&#13;&#10;        'July'  + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '08':&#13;&#10;        'August' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '09':&#13;&#10;        'September' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '10':&#13;&#10;         'October' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '11':&#13;&#10;         'November' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    case '12':&#13;&#10;        'December' + ' ' + gd.getByFormat(&quot;dd-MM-yyyy&quot;).substr(6,4);&#13;&#10;        break;&#13;&#10;    default:&#13;&#10;        'ERROR!';&#13;&#10;}" label="Document Date Month" mandatory="true" max_length="40" name="document_date_month" read_only="true" type="string"/>
+        <element label="Document File Name" max_length="500" name="document_file_name" type="string"/>
+        <element label="Executive Summary" mandatory="true" max_length="500" name="executive_summary" type="html"/>
+        <element default="true" label="Finland" mandatory="true" max_length="40" name="finland" type="boolean"/>
+        <element default="true" label="France" mandatory="true" max_length="40" name="france" type="boolean"/>
+        <element default="true" label="Germany-DE" mandatory="true" max_length="40" name="germany_de" type="boolean"/>
+        <element default="true" label="Germany-EN" mandatory="true" max_length="40" name="germany_en" type="boolean"/>
+        <element label="Image File Name" max_length="500" name="image_file_name" type="string"/>
+        <element default="true" label="Ireland" mandatory="true" max_length="40" name="ireland" type="boolean"/>
+        <element default="true" label="Italy" mandatory="true" max_length="40" name="italy" type="boolean"/>
+        <element default="true" label="Japan" mandatory="true" max_length="40" name="japan" type="boolean"/>
+        <element default="true" label="Luxembourg" mandatory="true" max_length="40" name="luxembourg" type="boolean"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Marketing Literature Owner" mandatory="true" max_length="32" name="marketing_literature_owner" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Meta Description" mandatory="true" max_length="500" name="meta_description" type="string"/>
+        <element label="Meta Key Words" mandatory="true" max_length="100" name="meta_key_words" type="string"/>
+        <element default="true" label="Netherlands" mandatory="true" max_length="40" name="netherlands" type="boolean"/>
+        <element default="true" label="Norway" mandatory="true" max_length="40" name="norway" type="boolean"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="ID" mandatory="true" max_length="40" name="number" read_only="true" type="string" unique="true"/>
+        <element default="Our Thinking" label="Publication" mandatory="true" max_length="80" name="publication" read_only="true" type="string"/>
+        <element hint="Max 255 Characters" label="Quote1" max_length="255" name="quote1" type="string"/>
+        <element label="Quote2" max_length="255" name="quote2" type="string"/>
+        <element label="Quote3" max_length="255" name="quote3" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Scheduled Date" max_length="40" name="scheduled_date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Selected for export" max_length="40" name="selected_for_export" type="boolean"/>
+        <element hint="NB: Max 200 characters permitted." label="Short CallOut1" mandatory="true" max_length="200" name="short_callout1" type="string"/>
+        <element default="true" label="spain" mandatory="true" max_length="40" name="spain" type="boolean"/>
+        <element choice="3" default="Active" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Active" sequence="10" value="Active"/>
+                <element label="Non-active" sequence="20" value="Nonactive"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="theme" dependent_on_field="theme" label="Sub theme" mandatory="true" max_length="100" name="sub_them" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Long-term Thinking" label="Demographics" value="Demographics"/>
+                <element dependent_value="Market insights" label="Fixed income" sequence="0" value="Fixed income"/>
+                <element dependent_value="Market insights" label="Index" sequence="1" value="Index"/>
+                <element dependent_value="Market insights" label="Multi-asset" sequence="2" value="Multi-asset"/>
+                <element dependent_value="Market insights" label="Active equity" sequence="3" value="Active equity"/>
+                <element dependent_value="Market insights" label="Real assets" sequence="4" value="Real assets"/>
+                <element dependent_value="Market insights" label="CIO outlook" sequence="5" value="CIO outlook"/>
+                <element dependent_value="Client Solutions" label="DB" sequence="10" value="DB"/>
+                <element dependent_value="Long-term Thinking" label="Energy" sequence="10" value="Energy"/>
+                <element dependent_value="Investment Foresight" label="No sub theme" sequence="10" value="No sub theme"/>
+                <element dependent_value="Long-term Thinking" label="Technology" sequence="10" value="Technology"/>
+                <element dependent_value="Client Solutions" label="DC" sequence="20" value="DC"/>
+            </choice>
+        </element>
+        <element default="true" label="Sweden" mandatory="true" max_length="40" name="sweden" type="boolean"/>
+        <element default="true" label="Switzerland-DE" mandatory="true" max_length="40" name="switzerland_de" type="boolean"/>
+        <element default="true" label="Switzerland-EN" mandatory="true" max_length="40" name="switzerland_en" type="boolean"/>
+        <element choice="1" label="Theme" mandatory="true" max_length="100" name="theme" type="choice">
+            <choice>
+                <element label="Long term thinking" sequence="10" value="Long term thinking"/>
+                <element label="Market insights" sequence="20" value="Market insights"/>
+                <element label="Client solutions" sequence="30" value="Client solutions"/>
+                <element label="Investment foresight" sequence="40" value="Investment foresight"/>
+            </choice>
+        </element>
+        <element label="Title" mandatory="true" max_length="100" name="title" type="string"/>
+        <element default="true" label="UK Institutional" mandatory="true" max_length="40" name="uk_institutional" type="boolean"/>
+        <element default="true" label="UK Trustees" mandatory="true" max_length="40" name="uk_trustees" type="boolean"/>
+        <element choice="3" default="True" label="Version Asia" mandatory="true" max_length="10" name="version_asia" type="choice">
+            <choice>
+                <element label="True" sequence="0" value="True"/>
+                <element label="False" sequence="1" value="False"/>
+            </choice>
+        </element>
+        <element choice="3" default="true" label="Version Japan" mandatory="true" max_length="10" name="version_japan" type="choice">
+            <choice>
+                <element label="True" sequence="10" value="true"/>
+                <element label="False" sequence="20"/>
+            </choice>
+        </element>
+        <element choice="3" default="true" label="Version Sheild" mandatory="true" max_length="10" name="version_sheild" type="choice">
+            <choice>
+                <element label="True" sequence="10" value="true"/>
+                <element label="False" sequence="20"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="marketing_literature_owner"/>
+        </index>
+    </element>
+</database>

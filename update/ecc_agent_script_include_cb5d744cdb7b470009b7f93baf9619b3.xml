@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="ecc_agent_script_include">
+    <ecc_agent_script_include action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>SftpFile</name>
+        <script><![CDATA[var SftpFile = Class.create();
+SftpFile.prototype = {
+	initialize: function() {
+
+		ms.log('***DG init')
+		this.Properties           = Packages.java.util.Properties;
+		this.StringUtil           = Packages.com.glide.util.StringUtil;
+		this.BufferedWriter       = Packages.java.io.BufferedWriter;
+		this.File                 = Packages.java.io.File;
+		this.FileWriter           = Packages.java.io.FileWriter;
+		this.Encrypter            = new Packages.com.glide.util.Encrypter();
+		this.FileOutputStream     = Packages.java.io.FileOutputStream;
+		this.FileInputStream      = Packages.java.io.FileInputStream;
+		this.BufferedReader       = Packages.java.io.BufferedReader;
+		this.InputStreamReader    = Packages.java.io.InputStreamReader;
+		this.OutputStraem         = Packages.java.io.OutputStream;
+		this.BufferedOutputStream = Packages.java.io.BufferedOutputStream;
+		this.Thread               = Packages.java.lang.Thread;
+
+		this.targetServer = 'lamsdudc041.udc.lgnet.co.uk';
+		this.targetPort =22 ;
+		this.targetUsername = 'rhythmyx';
+		this.targetPassword = 'rhythmyx';
+		this.deleteAfterUpload= probe.getParameter("deleteAfterUpload");
+		this.targetPath = probe.getParameter("targetPath");
+		this.MIDSERVER_FILE_PATH = probe.getParameter("midServerTempPath");
+		this.MIDSERVER_FILE_NAME = probe.getParameter("fileName");
+		ms.log('***DG init1')
+	},
+
+
+	processFileTransfer: function() {
+
+		try {
+			var localFileName = this.MIDSERVER_FILE_PATH + "/" + this.MIDSERVER_FILE_NAME;
+			this.log("Copying from local file of MID Server: " + localFileName);
+			this.sftpFile(this.targetServer, this.targetUsername, this.targetPassword, localFileName, this.targetPath + this.MIDSERVER_FILE_NAME);
+		} catch (e) {
+			this.log("Error in writing file to SFTP server: " + e);
+		} 
+
+	},
+
+
+	sftpFile : function(hostName, userName, password, localFileName, remoteFileName) {
+
+		this.log('sftpFile(): attempting to connect to ' + hostName);
+		var ssh = new Packages.com.sshtools.j2ssh.SshClient();
+		var ignoreHost = new Packages.com.sshtools.j2ssh.transport.IgnoreHostKeyVerification();
+		if (!this.targetPort){
+			this.targetPort = 22;
+		}
+		this.log('sftpFile(): attempting to connect to ' + hostName + " on port " + this.targetPort);
+		ssh.connect(hostName, this.targetPort, ignoreHost);
+
+		pwd = new Packages.com.sshtools.j2ssh.authentication.PasswordAuthenticationClient();
+		var authPassword = new Packages.com.glide.util.Encrypter().decrypt(password);
+		pwd.setUsername(userName);
+		pwd.setPassword(authPassword);
+
+		// Get full path of filename
+
+		this.log('sftpFile(): attempting to copy ' + localFileName + ' to ' + remoteFileName);
+		if(ssh.authenticate(pwd) == new Packages.com.sshtools.j2ssh.authentication.AuthenticationProtocolState().COMPLETE) {
+			sftp = ssh.openSftpClient();
+
+			try {
+				sftp.put(localFileName, remoteFileName);
+				this.log("File successfully copied to targert path\n\n");
+
+				if (this.deleteAfterUpload == "true") {
+					this.log("deleteAfterUpload -> " + this.deleteAfterUpload + ", deleting local file...");
+					new this.File(localFileName)["delete"]();
+				}
+
+			} 
+
+			catch(e) {
+				this.log('FILE NOT FOUND ' + remoteFileName + ' or error: ' + e);
+			}
+			sftp.quit();
+			try{
+				// kill connection
+				ssh.disconnect();
+			}
+			catch(e){
+				this.log('Manual connection kill not successful with error: ' + e);
+			}
+		}
+
+	},
+
+	log: function(data) {
+		ms.log(data);
+	},
+
+
+};
+]]></script>
+        <sys_class_name>ecc_agent_script_include</sys_class_name>
+        <sys_created_by>zszabo</sys_created_by>
+        <sys_created_on>2018-01-16 16:38:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cb5d744cdb7b470009b7f93baf9619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SftpFile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>ecc_agent_script_include_cb5d744cdb7b470009b7f93baf9619b3</sys_update_name>
+        <sys_updated_by>dgibbard@csc.com</sys_updated_by>
+        <sys_updated_on>2018-03-07 13:16:38</sys_updated_on>
+    </ecc_agent_script_include>
+</record_update>

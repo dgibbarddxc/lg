@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>number,status,theme,sub_them,marketing_literature_owner,sys_updated_on,publication</field_list>
+        <filter table="x_legim_marketing_content_hub">status=Active<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Active"/>
+        </filter>
+        <name>ed_t_x_legim_marketing_content_hub</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>zszabo</sys_created_by>
+        <sys_created_on>2018-01-16 16:28:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5f3b74c8db7b470009b7f93baf96195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ed_t_x_legim_marketing_content_hub</sys_name>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>sys_export_definition_5f3b74c8db7b470009b7f93baf96195f</sys_update_name>
+        <sys_updated_by>zszabo</sys_updated_by>
+        <sys_updated_on>2018-01-16 16:28:08</sys_updated_on>
+        <table_name>x_legim_marketing_content_hub</table_name>
+        <view display_value="Exp_d5f3b74c8db7b470009b7f93baf96195f" name="exp_d5f3b74c8db7b470009b7f93baf96195f">5b3b74c8db7b470009b7f93baf961960</view>
+    </sys_export_definition>
+</record_update>

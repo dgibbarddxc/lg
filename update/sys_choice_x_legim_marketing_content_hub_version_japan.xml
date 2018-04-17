@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="version_japan" table="x_legim_marketing_content_hub" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>version_japan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>True</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>10</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-16 14:07:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>97b8661edbfd0f0009b7f93baf9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-10-16 14:07:48</sys_updated_on>
+            <value>true</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>version_japan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>False</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <sequence>20</sequence>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-16 14:07:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>44d8225edbfd0f0009b7f93baf961959</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-10-16 14:08:03</sys_updated_on>
+            <value>false</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>version_japan</element>
+            <name>x_legim_marketing_content_hub</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-16 14:07:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>04d8621edbfd0f0009b7f93baf96192b</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>version_japan</sys_name>
+            <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+            <sys_update_name>sys_choice_x_legim_marketing_content_hub_version_japan</sys_update_name>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-10-16 14:08:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

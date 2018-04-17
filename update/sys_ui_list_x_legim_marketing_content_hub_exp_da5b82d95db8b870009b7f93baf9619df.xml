@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_legim_marketing_content_hub" version="2" view="exp_da5b82d95db8b870009b7f93baf9619df">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>theme</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sub_them</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>marketing_literature_owner</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>publication</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>advisers_3rd_party</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>advisers_wealth</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>archive_date</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asia</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>authors</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>belgium</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cio_pick</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cio_pick_copy</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complianceref</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>denmark</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>document_date</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>document_date_month</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>document_file_name</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>executive_summary</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>finland</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>france</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>germany_de</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>germany_en</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>image_file_name</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ireland</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>italy</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>japan</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>luxembourg</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>meta_description</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>meta_key_words</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>netherlands</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>norway</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quote1</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quote2</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quote3</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>38</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>scheduled_date</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>39</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_callout1</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>40</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>spain</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>41</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sweden</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>42</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>switzerland_de</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>43</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>switzerland_en</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>44</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>45</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>46</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>title</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>47</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>dd2961d5db8b870009b7f93baf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>uk_institutional</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>48</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>512961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>uk_trustees</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>49</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d12961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>50</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>552961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>51</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d52961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>version_asia</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>52</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>592961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>version_japan</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>53</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>d92961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>version_sheild</element>
+            <list_id display_value="x_legim_marketing_content_hub" element="NULL" name="x_legim_marketing_content_hub" parent="NULL" relationship="NULL" sys_domain="global" view="912961d5db8b870009b7f93baf961903">d92961d5db8b870009b7f93baf961905</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>54</position>
+            <sum>false</sum>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_id>5d2961d5db8b870009b7f93baf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_legim_marketing_content_hub</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>d92961d5db8b870009b7f93baf961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_legim_marketing_content_hub</sys_name>
+            <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+            <sys_update_name>sys_ui_list_x_legim_marketing_content_hub_exp_da5b82d95db8b870009b7f93baf9619df</sys_update_name>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:13:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_da5b82d95db8b870009b7f93baf9619df" name="exp_da5b82d95db8b870009b7f93baf9619df">912961d5db8b870009b7f93baf961903</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

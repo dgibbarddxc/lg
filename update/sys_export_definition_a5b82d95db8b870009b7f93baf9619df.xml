@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>number,status,theme,sub_them,marketing_literature_owner,sys_updated_on,publication,advisers_3rd_party,advisers_wealth,archive_date,asia,authors,belgium,cio_pick,cio_pick_copy,complianceref,sys_created_on,sys_created_by,denmark,document_date,document_date_month,document_file_name,executive_summary,finland,france,germany_de,germany_en,image_file_name,ireland,italy,japan,luxembourg,meta_description,meta_key_words,netherlands,norway,quote1,quote2,quote3,scheduled_date,short_callout1,spain,sweden,switzerland_de,switzerland_en,sys_id,sys_tags,title,uk_institutional,uk_trustees,sys_updated_by,sys_mod_count,version_asia,version_japan,version_sheild</field_list>
+        <filter table="x_legim_marketing_content_hub">status=Active^selected_for_export=true^EQ<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Active"/>
+            <item endquery="false" field="selected_for_export" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>Content Hub</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>AM99925</sys_created_by>
+        <sys_created_on>2017-12-14 10:13:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a5b82d95db8b870009b7f93baf9619df</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Content Hub</sys_name>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>sys_export_definition_a5b82d95db8b870009b7f93baf9619df</sys_update_name>
+        <sys_updated_by>zszabo</sys_updated_by>
+        <sys_updated_on>2018-01-19 15:36:19</sys_updated_on>
+        <table_name>x_legim_marketing_content_hub</table_name>
+        <view display_value="Exp_da5b82d95db8b870009b7f93baf9619df" name="exp_da5b82d95db8b870009b7f93baf9619df">912961d5db8b870009b7f93baf961903</view>
+    </sys_export_definition>
+</record_update>

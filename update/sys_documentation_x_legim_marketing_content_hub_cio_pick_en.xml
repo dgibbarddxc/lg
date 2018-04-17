@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cio_pick" label="CIO Pick" language="en" table="x_legim_marketing_content_hub">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cio_pick</element>
+            <help/>
+            <hint>Tick  and enter details in CIO Pick Copy field</hint>
+            <label>CIO Pick</label>
+            <language>en</language>
+            <name>x_legim_marketing_content_hub</name>
+            <plural>CIO Picks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AM99925</sys_created_by>
+            <sys_created_on>2017-10-16 09:51:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>9a3ead16dbbd0f0009b7f93baf961993</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>CIO Pick</sys_name>
+            <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+            <sys_update_name>sys_documentation_x_legim_marketing_content_hub_cio_pick_en</sys_update_name>
+            <sys_updated_by>AM99925</sys_updated_by>
+            <sys_updated_on>2017-10-26 12:54:16</sys_updated_on>
+            <u_help_title/>
+            <u_html_help/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

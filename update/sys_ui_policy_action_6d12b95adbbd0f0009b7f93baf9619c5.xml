@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>false</disabled>
+        <field>cio_pick_copy</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>AM99925</sys_created_by>
+        <sys_created_on>2017-10-16 10:09:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6d12b95adbbd0f0009b7f93baf9619c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>cio_pick_copy</sys_name>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6d12b95adbbd0f0009b7f93baf9619c5</sys_update_name>
+        <sys_updated_by>AM99925</sys_updated_by>
+        <sys_updated_on>2017-10-16 10:18:47</sys_updated_on>
+        <table>x_legim_marketing_content_hub</table>
+        <ui_policy display_value="CIO Pick Copy mandatory and read/write if CIO Pick is TRUE">c851b55adbbd0f0009b7f93baf9619f4</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

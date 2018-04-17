@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="ecc_agent_script_include">
+    <ecc_agent_script_include action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>DGSFTP</name>
+        <script><![CDATA[var DGSFTP = Class.create();
+DGSFTP.prototype = {
+	initialize: function() {
+		ms.log('DG SI');
+		gs.log('DG SI');
+		this.File            = Packages.java.io.File;
+		this.J2ssh           = Packages.com.sshtools.j2ssh;
+
+// 		this.targetHost = probe.getParameter('host');
+// 		this.targetPort = probe.getParameter('port');
+// 		this.targetUser = probe.getParameter('user');
+// 		this.privateKey = probe.getParameter('privatekey');
+// 		this.targetFile = probe.getParameter('target') + probe.getParameter('filename');
+// 		this.sourceFile = probe.getParameter('source') + probe.getParameter('filename');
+// 		this.deleteFile = probe.getParameter('deletefile');
+	},
+
+	fileTransfer: function() {
+		ms.log('DG SIFT');
+		return;
+		
+		try {
+			this._sftp();
+			if (this.deleteFile) {
+				this._deleteFile();
+			}
+		} catch (ex) {
+			ms.log('SFTP Error: ' + ex);
+		}
+	},
+
+	_authenticate: function(ssh) {
+		privateKeyFile = new this.J2ssh.transport.publickey.SshPrivateKeyFile.parse(new this.File(this.privateKey));
+		publicKeyAuth = new this.J2ssh.authentication.PublicKeyAuthenticationClient();
+		publicKeyAuth.setUsername(this.targetUser);
+		publicKeyAuth.setKey(privateKeyFile.toPrivateKey(''));
+
+		var result = ssh.authenticate(publicKeyAuth);
+		if (result != new this.J2ssh.authentication.AuthenticationProtocolState().COMPLETE) {
+			throw 'SFTP Authenticate Failed: ' + this.targetUser + '@' + this.targetHost + ':' + this.targetPort;
+		}
+	},
+
+	_deleteFile: function() {
+		try {
+			new this.File(this.sourceFile)['delete']();
+		} catch (ex) {
+			throw 'SFTP Delete: ' + ex;
+		}
+
+	},
+
+	_sftp : function() {
+		ms.log('SFTP Connect: ' + this.targetUser + '@' + this.targetHost + ':' + this.targetPort);
+
+		var ssh = new this.J2ssh.SshClient();
+		try {
+			ssh.connect(this.targetHost, this.targetPort, new this.J2ssh.transport.IgnoreHostKeyVerification());
+			this._authenticate(ssh);
+			this._transfer(ssh);
+		} catch (ex) {
+			throw 'SFTP Error: ' + ex;
+		} finally {
+			ssh.disconnect();
+		}
+	},
+
+	_transfer: function(ssh) {
+		try {
+			sftp = ssh.openSftpClient();
+			sftp.put(this.sourceFile, this.targetFile);
+			ms.log('SFTP Transfer: ' + this.sourceFile + ' copied to ' + this.targetHost + ':' + this.targetPort);
+		} catch (ex) {
+			throw 'SFTP Transfer: ' + ex;
+		} finally {
+			sftp.quit();
+		}
+	}
+
+};]]></script>
+        <sys_class_name>ecc_agent_script_include</sys_class_name>
+        <sys_created_by>dgibbard@csc.com</sys_created_by>
+        <sys_created_on>2018-03-07 15:06:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ebf68a40dbf85f0009b7f93baf9619f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DGSFTP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing" source="x_legim_marketing">86dace154ffdc700dd9e81c18110c7a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing">86dace154ffdc700dd9e81c18110c7a8</sys_scope>
+        <sys_update_name>ecc_agent_script_include_ebf68a40dbf85f0009b7f93baf9619f1</sys_update_name>
+        <sys_updated_by>dgibbard@csc.com</sys_updated_by>
+        <sys_updated_on>2018-03-07 15:43:14</sys_updated_on>
+    </ecc_agent_script_include>
+</record_update>
